@@ -1,5 +1,6 @@
 <h1>Fraud detection on Credit Card Transactions dataset</h1>
-This is notebook represents an insight on how different the results are between Autoencoder and  when dealing with Financial News.
+Unsupervised learning is often a preferred method in fraud detection because it allows the model to identify patterns and anomalies in the data without prior knowledge or labels. Supervised learning, on the other hand, requires labeled data which can be difficult to obtain in the context of fraud detection where the instances of fraud are rare and often go undetected. In unsupervised learning, the algorithm is able to learn the normal patterns of behavior and transactions, and then identify instances that deviate from these patterns as potential fraud. This approach can be more effective in detecting new and unseen types of fraud, as well as in handling imbalanced datasets where the number of non-fraud instances far outweighs the number of fraud instances. Additionally, unsupervised learning can be less prone to biases present in the labeled data, making the results more trustworthy and reliable.
+And this is why I made this notebook to show to implement autoencoder model to detect fraud and compare the results with another unsupervised learning model "isolation forest".
 <h1>Setup and Requirements</h1>
 Clone this repository:
 
